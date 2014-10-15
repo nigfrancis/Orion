@@ -18,3 +18,6 @@ I. install Git for Mac if on Mac (http://git-scm.com/download/mac)
 14. To commit your changes to the project run "git commit -a"
 15. If prompted to create a message for your commit via Vi/Vim, enter a message describing the changes you made to the files you added, then hit the Esc and type ":wq" to save your changes and exit
 16. If prompted to create a message for your commit via Terminal/Bash, enter a message describing the changes you made to the files you added, then follow the UI for instructions on how to save and exit
+
+
+17. TEST - Stone
