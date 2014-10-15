@@ -1,0 +1,20 @@
+1. Go to GitHub and make a free account (https://github.com/) to access the files for the project that are stored on the remote server
+I. install Git for Mac if on Mac (http://git-scm.com/download/mac)
+2. Install Git for Windows if on Windows (http://git-scm.com/download/win)
+3. Open Command Prompt/Terminal (suggest running as Administrator)
+4. Setup username on your git "git config --global user.name <Your Real Name, Not Your GitHub Username>"
+5. Setup user email on your git "git config --global user.email <Your GitHub Account Email>"
+6. Change directory to the folder where the "repository" (new folder) will be created (Windows example: "cd C:\Users\Niles\Documents\Projects")/(Mac(?) example: "cd ~\Niles\Home\Documents\Projects")
+7. Run "git clone https://github.com/nigfrancis/Orion" to get a copy of the project on your PC (that is linked to the project stored on server)
+8. If prompted, enter GitHub account username and password
+9. Your computer should start syncing with the master repository
+
+
+
+10. When you are done making changes, open Command Prompt (suggest running as Administrator)
+11. Change directory to the *inside* of your local *repository* (inside the actual Orion folder)
+12. Run "git status" to get a snapshot of the state of the master repository (it will tell you what you are going to change from your end and what has changed since you last synced)
+13. When you want to add your changes, run "git add <Name of Document You Are Adding>"
+14. To commit your changes to the project run "git commit -a"
+15. If prompted to create a message for your commit via Vi/Vim, enter a message describing the changes you made to the files you added, then hit the Esc and type ":wq" to save your changes and exit
+16. If prompted to create a message for your commit via Terminal/Bash, enter a message describing the changes you made to the files you added, then follow the UI for instructions on how to save and exit
